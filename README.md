@@ -16,9 +16,9 @@ ClawGuard is designed as a modular suite of security tools. We are continuously 
 
 ### Current Components
 
-- **[Prompt-based Auditor](../auditor-prompt/)**: A rigorous security gateway prompt designed to audit third-party Skills before OpenClaw installs or configures them. It forces the agent to assess provenance, permissions, network behavior, and dependencies to prevent the execution of malicious code.
+- **[Prompt-based Auditor](./auditor-prompt/)**: A rigorous security gateway prompt designed to audit third-party Skills before OpenClaw installs or configures them. It forces the agent to assess provenance, permissions, network behavior, and dependencies to prevent the execution of malicious code.
 
-- **[Skill-based Auditor](../auditor-skill/)**: A native Skill for ClawGuard that securely audits operations, requiring installation but providing deeper system-level guardrails.
+- **[Skill-based Auditor](./auditor-skill/)**: A native Skill for ClawGuard that securely audits operations, requiring installation but providing deeper system-level guardrails.
 
 ### 🚧 Upcoming Releases
 
